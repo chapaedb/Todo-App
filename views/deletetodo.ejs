@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+
+
+    <div class="table-container">
+<h2 class="todo-title">Delete todo</h2>
+<a class="btn" href="/"> back</a>
+<div class="confirm">
+    <p>
+        Are you sure you want to delete this todo?
+        <a class="btn" href="/confirmdelete?id=<%= id %>&confirm=yes">Yes</a>
+        <a class="btn" href="/confirmdelete?id=<%= id %>&confirm=no">No</a>
+
+    </p>
+</div>
+    </div>
+    <%- include('partials/footer') %>

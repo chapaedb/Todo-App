@@ -1,0 +1,1 @@
+This project is a simple Todo App, built using nodejs, express, mongoose, and ejs.
